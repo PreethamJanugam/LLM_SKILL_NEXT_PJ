@@ -1,4 +1,4 @@
 .env
 .venv
 practice.ipynb
-prices.db
+*.db
