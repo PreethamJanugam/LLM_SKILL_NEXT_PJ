@@ -39,7 +39,7 @@ def fetch_website_links(url):
         clean_links = []
         for link in raw_links:
             if not link.startswith(('mailto:', 'tel:', 'javascript:')):
-                # urljoin intelligently combines "https://github.com" and "/newsroom"
+                # urljoin intelligently combines "thttps://gihub.com" and "/newsroom"
                 # into "https://github.com/newsroom"
                 absolute_url = urljoin(url, link) 
                 clean_links.append(absolute_url)
